@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Ecommerce Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/3561a9cec8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.html"><img src="images/LOGO.png" class="logo" alt="Brand pic"></a>
+        <div>
+            <ul id="navbar">
+                <li class="search-container">
+                    <input type="text" class="search-input" placeholder="Search">
+                    <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a href="shop.html" role="link" data-toggle="dropdown">Shop</a>
+                    <div class="dropdown-menu">
+                        <br />
+                        <a class="dropdown-item" href="shop.html">All Products</a>
+                        <a class="dropdown-item" href="Mens.html">Mens</a>
+                        <a class="dropdown-item" href="Womens.html">Womens</a>
+                        <a class="dropdown-item" href="Kids.html">Kids </a>
+                        <a class="dropdown-item" href="Shoes.html">Shoes & Sneakers</a>
+                    </div>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li id="bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="cross"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mob">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+
+    <section id="contact-header">
+        <h2>#ContactUs</h2>
+        <p>We are here for you 24x7</p>
+    </section>
+
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit our agency or Contact us!</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fa fa-map" aria-hidden="true"></i>
+                    <p>56 Glassford Street Glasgow G1 1UL New York</p>
+                </li>
+                <li>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <p>contact@gmail.com</p>
+                </li>
+                <li>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <p>(+91) 01 3333 789 /(+91) 01 2345 7789</p>
+                </li>
+                <li>
+                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                    <p>Monday to Saturday: 9.00AM - 6.00PM</p>
+                </li>
+            </div>
+        </div>
+        <!--map-->
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.8088029523096!2d-1.256941723666938!3d51.754819692598886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff1883a001afed!2sUniversity%20of%20Oxford!5e0!3m2!1sen!2sin!4v1708602019085!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="form-details">
+        <form action="">
+            <span>Leave a Message</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="E-Mail" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Your Message" required></textarea>
+            <button>Submit</button>
+        </form>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="news">
+            <h4>Sign Up for Newsletters</h4>
+            <p>Get E-mail updates about our <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="email" placeholder="Your E-Mail Id">
+            <a class="btn btn-success">Sign up</a>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="images/logo2.png" alt="brand img">
+
+            <div class="Follow">
+                <h4>Follow Us:</h4>
+                <div class="icons">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="">About Us</a>
+            <a href="">Delivery</a>
+            <a href="">Privacy</a>
+            <a href="">T&Cs</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="login.html">Sign In</a>
+            <a href="">Track Order</a>
+            <a href="">My Wishlist</a>
+            <a href="cart.html">View Cart</a>
+            <a href="">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install our App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/play.jpg" alt="Play Store">
+                <img src="images/app.jpg" alt="App Store">
+            </div>
+            <p>Payment Gateways</p>
+            <img src="images/pay.png" alt="Gateways">
+        </div>
+    </footer>
+    <p class="copyright">© 2024 Nike. All Rights Reserved.</p>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Ecommerce Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/3561a9cec8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.html"><img src="images/LOGO.png" class="logo" alt="Brand pic"></a>
+        <div>
+            <ul id="navbar">
+                <li class="search-container">
+                    <input type="text" class="search-input" placeholder="Search">
+                    <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </li>
+
+                <li><a class="active" href="index.html">Home</a></li>
+                
+                <li class="nav-item dropdown">
+                    <a  href="shop.html" role="link" data-toggle="dropdown">Shop</a>
+                    <div class="dropdown-menu">
+                        <br/>
+                        <a class="dropdown-item" href="shop.html">All Products</a>
+                        <a class="dropdown-item" href="Mens.html">Mens</a>
+                        <a class="dropdown-item" href="Womens.html">Womens</a>
+                        <a class="dropdown-item" href="Kids.html">Kids </a>
+                        <a class="dropdown-item" href="Shoes.html">Shoes & Sneakers</a>
+                    </div>
+                </li>
+
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="cross"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mob">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+
+    <section id="background">
+        <h4>Hurry! Hurry!</h4>
+        <h2>Deals</h2>
+        <h1>on all products</h1>
+        <p>Upto 50% discounts!</p>
+        <a href="shop.html">Shop Now</a>
+    </section>
+
+
+
+    <section id="fproduct" class="section-p2">
+        <h3>Featured Products</h3>
+        <p>New Collections, New Designs</p>
+        <div class="product-container">
+            <div class="card" onclick="window.location.href='product1.html';">
+                <img src="images/fp1.webp" alt="Product 1">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Sportswear Phoenix Fleece</h5>
+                    <h6>Women's Hoodie</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $46</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card" onclick="window.location.href='product2.html';">
+                <img src="images/fp2.webp" alt="Product 2">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5> Dri-FIT Standard Issue</h5>
+                    <h6>Men's Hoodie</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $66</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card" onclick="window.location.href='product3.html';">
+                <img src="images/fp3.webp" alt="Product 3">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>LeBron</h5>
+                    <h6>Men's Fleece Hoodie</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $72</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card" onclick="window.location.href='product4.html';">
+                <img src="images/fp4.webp" alt="Product 4">
+                <div class="des">
+                    <span>Jordan</span>
+                    <h5>Flight MVP</h5>
+                    <h6>Crew-Neck Sweatshirt</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $47</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card" onclick="window.location.href='product5.html';">
+                <img src="images/fp5.webp" alt="Product 5">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Zion</h5>
+                    <h6>Pullover Hoodie</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $48</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/fp6.webp" alt="Product 6">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Sneaker Evolution</h5>
+                    <h6>Men's Hoodie</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $52</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/fp7.webp" alt="Product 7">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5> Dri-FIT One</h5>
+                    <h6>Women's Full-Zip Hoodie</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $46</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/fp8.webp" alt="Product 8">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Sportswear</h5>
+                    <h6>Women's Pullover Hoodie</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $45</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/fp8.webp" alt="Product 8">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Sportswear</h5>
+                    <h6>Women's Pullover Hoodie</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $45</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/fp8.webp" alt="Product 8">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Sportswear</h5>
+                    <h6>Women's Pullover Hoodie</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $45</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/fp8.webp" alt="Product 8">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Sportswear</h5>
+                    <h6>Women's Pullover Hoodie</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $45</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/fp8.webp" alt="Product 8">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Sportswear</h5>
+                    <h6>Women's Pullover Hoodie</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $45</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h2>Upto <span>50% Off</span> on All Clothes & Accessories</h2>
+        <a href="shop.html" class="btn btn-success">Explore More</a>
+    </section>
+
+    <section id="fproduct" class="section-p2">
+        <h3>New Arrivals</h3>
+        <p>Latest Collections, Latest Designs</p>
+        <div class="product-container">
+            <div class="card">
+                <img src="images/na1.webp" alt="Product 1">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Sportswear T-Shirt</h5>
+                    <h6>Men's T-Shirt</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $50</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/na2.webp" alt="Product 2">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5> Dri-FIT Logo</h5>
+                    <h6>Men's Sweatshirt</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $64</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/na3.webp" alt="Product 3">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Sweatshirt</h5>
+                    <h6>Men's Fleece Sweatshirt</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $66</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/na4.webp" alt="Product 4">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Flight MVP</h5>
+                    <h6>White Sweatshirt</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $43</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/na5.webp" alt="Product 5">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Zion</h5>
+                    <h6>Oversized T-Shirt</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $48</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/na6.webp" alt="Product 6">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Nike Logo</h5>
+                    <h6>Women's Hoodie</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $52</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/na7.webp" alt="Product 7">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Nike Multi</h5>
+                    <h6>Kid's Shirt</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $36</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/na8.webp" alt="Product 8">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Sportswear Fleece</h5>
+                    <h6>Kid's Sweatshirt</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $40</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/na8.webp" alt="Product 8">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Sportswear Fleece</h5>
+                    <h6>Kid's Sweatshirt</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $40</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/na8.webp" alt="Product 8">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Sportswear Fleece</h5>
+                    <h6>Kid's Sweatshirt</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $40</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/na8.webp" alt="Product 8">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Sportswear Fleece</h5>
+                    <h6>Kid's Sweatshirt</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $40</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/na8.webp" alt="Product 8">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Sportswear Fleece</h5>
+                    <h6>Kid's Sweatshirt</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffbf52;"></i>
+                    </div>
+                    <h4>MRP : $40</h4>
+                </div>
+                <div>
+                    <a href="#"><i
+                            class="fas fa-shopping-cart cart"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a><i class="fa-solid fa-heart heart"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="sbanner" class="section-p1">
+        <div class="bannerbox">
+            <h4>Exciting Offers</h4>
+            <h2>Buy 1 Get 1 free!</h2>
+            <span>Biggest sale is ON!</span>
+            <a href="" class="btn btn-primary">Know More</a>
+        </div>
+        <div class="bannerbox box2">
+            <h4>Winter Collection</h4>
+            <h2>Upcoming Season</h2>
+            <span>The best dresses are on sale!</span>
+            <a href="" class="btn btn-secondary">Collection</a>
+        </div>
+    </section>
+
+    <section id="b3">
+        <div class="bannerbox">
+            <h3>SUMMER COLLECTION</h3>
+            <a href="" class="btn btn-secondary">Shop Now</a>
+        </div>
+        <div class="bannerbox box1">
+            <h3>KIDS COLLECTION</h3>
+            <a href="" class="btn btn-secondary">Shop Now</a>
+        </div>
+        <div class="bannerbox box3">
+            <h3>SHOES & SNEAKERS</h3>
+            <a href="" class="btn btn-secondary">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="news">
+            <h4>Sign Up for Newsletters</h4>
+            <p>Get E-mail updates about our <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="email" placeholder="Your E-Mail Id">
+            <a class="btn btn-success">Sign up</a>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="images/logo2.png" alt="brand img">
+
+            <div class="Follow">
+                <h4>Follow Us:</h4>
+                <div class="icons">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="">About Us</a>
+            <a href="">Delivery</a>
+            <a href="">Privacy</a>
+            <a href="">T&Cs</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="login.html">Sign In</a>
+            <a href="">Track Order</a>
+            <a href="">My Wishlist</a>
+            <a href="cart.html">View Cart</a>
+            <a href="">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install our App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/play.jpg" alt="Play Store">
+                <img src="images/app.jpg" alt="App Store">
+            </div>
+            <p>Payment Gateways</p>
+            <img src="images/pay.png" alt="Gateways">
+        </div>
+    </footer>
+    <p class="copyright">© 2024 Nike. All Rights Reserved.</p>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

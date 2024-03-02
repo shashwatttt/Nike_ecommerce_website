@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Ecommerce Website</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/3561a9cec8.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <section id="header">
+            <a href="index.html"><img src="images/LOGO.png" class="logo" alt="Brand pic"></a>
+            <div>
+                <ul id="navbar">
+                    <li class="search-container">
+                        <input type="text" class="search-input" placeholder="Search">
+                        <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a  href="shop.html" role="link" data-toggle="dropdown">Shop</a>
+                        <div class="dropdown-menu">
+                            <br/>
+                            <a class="dropdown-item" href="shop.html">All Products</a>
+                            <a class="dropdown-item" href="Mens.html">Mens</a>
+                            <a class="dropdown-item" href="Womens.html">Womens</a>
+                            <a class="dropdown-item" href="Kids.html">Kids </a>
+                            <a class="dropdown-item" href="Shoes.html">Shoes & Sneakers</a>
+                        </div>
+                    </li>
+                    <li><a class="active" href="blog.html">Blog</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    <a href="#" id="cross"><i class="fa-solid fa-xmark"></i></a>
+                </ul>
+            </div>
+            <div id="mob">
+                <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                <i id="bar" class="fa-solid fa-bars"></i>
+            </div>
+        </section>
+
+        <section class="blog-header">
+            <h2>#RiseAbove</h2>
+            <p>The only limit is you!</p>
+        </section>
+
+        <section id="blog">
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/blog1.jpg" alt="Blog 1 image">
+                </div>
+                <div class="blog-details">
+                    <h4>A Commitment to Sustainability</h4>
+                    <p>We all share the responsibility for our playground—PLANET EARTH. that's why we're reimagining things top to bottom through sustainability and circularity. we're focusing on...</p>
+                    <a href="https://www.nike.com/in/sustainability">...Continue Reading</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/blog2.jpg" alt="Blog 2 image">
+                </div>
+                <div class="blog-details">
+                    <h4>Behind the Swoosh: The Story of Nike's Iconic Logo</h4>
+                    <p>Nike was founded in 1971 by Bill Bowerman and Phil Knight, both of whom were track athletes at the time. Finding that the market was too closed and not very accessible for people who liked to run, they decided ...</p>
+                    <a href="https://blog.designcrowd.com/article/1911/the-story-behind-the-nike-swoosh-logo">...Continue Reading</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/blog3.jpg" alt="Blog 3 image">
+                </div>
+                <div class="blog-details">
+                    <h4>The Rise of Athleisure: How Nike is Redefining Casual Wear</h4>
+                    <p>The rise of athleisure has been downplayed by some analysts who believe it's just a passing fad. But the numbers so far seem to indicate otherwise. According to research from the NPD Group,...</p>
+                    <a href="https://www.forbes.com/sites/gregpetro/2015/09/16/lululemon-nike-and-the-rise-of-athleisure/?sh=8e22bda37c82">...Continue Reading</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/blog4.jpg" alt="Blog 4 image">
+                </div>
+                <div class="blog-details">
+                    <h4>Fitness Challenges with Nike: Joining the Community for a Healthier You</h4>
+                    <p>As a sports industry pioneer, Nike first addressed the physical inactivity epidemic in the 1970s, fueling the US jogging boom where 25 million Americans embraced running and jogging8. In an era where running was for elite athletes, Nike introduced running shoes for ...</p>
+                    <a href="https://www.impaakt.com/blog/nike-enables-300-million-to-engage-in-fitness">...Continue Reading</a>
+                </div>
+            </div>
+            <div class="blog-box">
+                <div class="blog-img">
+                    <img src="images/blog5.jpg" alt="Blog 5 image">
+                </div>
+                <div class="blog-details">
+                    <h4>The Evolution of Nike Running Technology: A Deep Dive</h4>
+                    <p>Nike, a powerhouse in the athletic footwear industry, has consistently pushed the boundaries of innovation in running shoes since its inception. The evolution of Nike running shoes is a captivating journey that...</p>
+                    <a href="https://nextbigwhat.com/nikes-success-story-a-deep-dive-into-the-brands-history-and-strategy-acquired-bigideas/">...Continue Reading</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="pagination" class="section-p1">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+        </section>
+
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="news">
+                <h4>Sign Up for Newsletters</h4>
+                <p>Get E-mail updates about our <span>special offers.</span></p>
+            </div>
+            <div class="form">
+                <input type="email" placeholder="Your E-Mail Id">
+                <a class="btn btn-success">Sign up</a>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="images/logo2.png" alt="brand img">
+    
+                <div class="Follow">
+                    <h4>Follow Us:</h4>
+                    <div class="icons">
+                        <i class="fa-brands fa-x-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="">About Us</a>
+                <a href="">Delivery</a>
+                <a href="">Privacy</a>
+                <a href="">T&Cs</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="login.html">Sign In</a>
+                <a href="">Track Order</a>
+                <a href="">My Wishlist</a>
+                <a href="cart.html">View Cart</a>
+                <a href="">Help</a>
+            </div>
+            <div class="col install">
+                <h4>Install our App</h4>
+                <p>From App Store or Google Play</p>
+                <div class="row">
+                    <img src="images/play.jpg" alt="Play Store">
+                    <img src="images/app.jpg" alt="App Store">
+                </div>
+                <p>Payment Gateways</p>
+                <img src="images/pay.png" alt="Gateways">
+            </div>
+        </footer>
+        <p class="copyright">© 2024 Nike. All Rights Reserved.</p>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

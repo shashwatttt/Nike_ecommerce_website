@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Ecommerce Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/3561a9cec8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.html"><img src="images/LOGO.png" class="logo" alt="Brand pic"></a>
+        <div>
+            <ul id="navbar">
+                <li class="search-container">
+                    <input type="text" class="search-input" placeholder="Search">
+                    <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                </li>
+                <li><a href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a href="shop.html" role="link" data-toggle="dropdown">Shop</a>
+                    <div class="dropdown-menu">
+                        <br />
+                        <a class="dropdown-item" href="shop.html">All Products</a>
+                        <a class="dropdown-item" href="Mens.html">Mens</a>
+                        <a class="dropdown-item" href="Womens.html">Womens</a>
+                        <a class="dropdown-item" href="Kids.html">Kids </a>
+                        <a class="dropdown-item" href="Shoes.html">Shoes & Sneakers</a>
+                    </div>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="cross"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mob">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-bars"></i>
+        </div>
+    </section>
+
+    <section id="contact-header">
+        <h2>#Shop@Nike</h2>
+        <p>Your wishlist's new home: Your shopping cart.</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td><strong>Remove</strong></td>
+                    <td><strong>Product</strong></td>
+                    <td><strong>Product Name</strong></td>
+                    <td><strong>Price</strong></td>
+                    <td><strong>Quantity</strong></td>
+                    <td><strong>Subtotal</strong></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="fa-solid fa-trash"></i></td>
+                    <td><img src="images/fp1.webp" alt="Product 1"></td>
+                    <td>
+                        <p>Sportswear Phoenix Fleece</p>
+                    </td>
+                    <td>$46.00</td>
+                    <td><input type="number" value="1" max="10" min="1"></td>
+                    <td>$46.00</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-trash"></i></td>
+                    <td><img src="images/fp2.webp" alt="Product 2"></td>
+                    <td>
+                        <p>Dri-FIT Standard Issue</p>
+                    </td>
+                    <td>$66.00</td>
+                    <td><input type="number" value="1" max="10" min="1"></td>
+                    <td>$66.00</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-trash"></i></td>
+                    <td><img src="images/fp3.webp" alt="Product 3"></td>
+                    <td>
+                        <p>LeBron Fleece Hoodie</p>
+                    </td>
+                    <td>$72.00</td>
+                    <td><input type="number" value="1" max="10" min="1"></td>
+                    <td>$72.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter your coupon">
+                <button>Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotals</td>
+                    <td>$184.00</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong> </td>
+                    <td><strong>$184.00</strong></td>
+                </tr>
+            </table>
+            <button>Checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="images/logo2.png" alt="brand img">
+
+            <div class="Follow">
+                <h4>Follow Us:</h4>
+                <div class="icons">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="">About Us</a>
+            <a href="">Delivery</a>
+            <a href="">Privacy</a>
+            <a href="">T&Cs</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="login.html">Sign In</a>
+            <a href="">Track Order</a>
+            <a href="">My Wishlist</a>
+            <a href="cart.html">View Cart</a>
+            <a href="">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install our App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/play.jpg" alt="Play Store">
+                <img src="images/app.jpg" alt="App Store">
+            </div>
+            <p>Payment Gateways</p>
+            <img src="images/pay.png" alt="Gateways">
+        </div>
+    </footer>
+    <p class="copyright">© 2024 Nike. All Rights Reserved.</p>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
